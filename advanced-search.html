@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul class="button-container">
+            <li class="button-item"><a href="/index.html" class="button">Google Search</a></li>
+            <li class="button-item"><a href="/search_image.html" class="button">Image</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="section-advanced">
+            <img src="/images/google-logo-transparent.png" alt="Logo" width="500">
+            <h2>Google Advanced Search</h2>
+            <!-- https://www.google.com/advanced_search?as_q=q&as_epq=r&as_oq=s&as_eq=t -->
+            <form class="search-advanced" action="https://www.google.com/search">
+                <ul class="section-button">
+                    <li class="section-item">
+                        всеми этими словами: <input type="text" name="as_q">
+                    </li>
+                    <li class="section-item">
+                        это точное слово или фраза:» <input type="text" name="as_epq">
+                    </li>
+                    <li class="section-item">
+                        любым из этих слов: <input type="text" name="as_oq">
+                    </li>
+                    <li class="section-item">
+                        ни одним из этих слов: <input type="text" name="as_eq">
+                    </li>
+                </ul>
+                <div class="button-container">
+                    <input class="button-advanced-search" type="submit" value="Search">
+                </p>
+            </form>
+            <!-- <div class="section-container-advanced">
+            </div> -->
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
