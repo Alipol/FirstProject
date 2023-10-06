@@ -8,7 +8,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
     font-size: 24px;
 }
@@ -17,13 +17,12 @@ h2 {
     text-align: center;
 }
 
-header {
-    margin-top: 100px;
+main {
+    margin-top: -150px;
 }
 
-main {
-    /* width: 400px; */
-    margin-top: -150px;
+li {
+    list-style-type: none;
 }
 
 .section {
@@ -36,12 +35,25 @@ main {
     width: 300px;
 }
 
-.buttons {
+.button-container {
     /* width: 300px; */
     margin-top: 20px;
+    padding: 0 50px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;    
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: grey;
 }
 
 .button-advanced {

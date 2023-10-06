@@ -8,21 +8,20 @@
 </head>
 <body>
     <header>
-        <img src="/images/google-logo-transparent.png" alt="Logo" width="500">
+        <ul class="button-container">
+            <li class="button-item"><a href="/search_advanced.html" class="button">Advanced</a></li>
+            <li class="button-item"><a href="/index.html" class="button">Google Search</a></li>
+        </ul>
     </header>
     <main>
         <section class="section">
+            <img src="/images/google-logo-transparent.png" alt="Logo" width="500">
             <h2>Google Search Images</h2>
             <div class="section-container">
                 <form class="search" action="http://images.google.com/images">
                     <input type="text" name="q">
                     <input class="button-image" type="submit" value="Search">
                 </form>
-            
-                <div class="buttons">
-                    <button><a href="/search_advanced.html">Advanced</a></button>
-                    <button><a href="/index.html">Google Search</a></button>
-                </div>
             </div>
         </section>
     </main>
