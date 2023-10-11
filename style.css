@@ -113,6 +113,10 @@ input[type=submit]:hover {
     width: 600px;
 }
 
+.search-advanced-container {
+    display: flex;
+}
+
 .section-item {
     margin-bottom: 20px;
 }

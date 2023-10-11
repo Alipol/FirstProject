@@ -19,20 +19,36 @@
             <h2>Google Advanced Search</h2>
             <!-- https://www.google.com/advanced_search?as_q=q&as_epq=r&as_oq=s&as_eq=t -->
             <form class="search-advanced" action="https://www.google.com/search">
-                <ul class="section-button">
-                    <li class="section-item">
-                        всеми этими словами: <input type="text" name="as_q">
-                    </li>
-                    <li class="section-item">
-                        это точное слово или фраза:» <input type="text" name="as_epq">
-                    </li>
-                    <li class="section-item">
-                        любым из этих слов: <input type="text" name="as_oq">
-                    </li>
-                    <li class="section-item">
-                        ни одним из этих слов: <input type="text" name="as_eq">
-                    </li>
-                </ul>
+                <div class="search-advanced-container">
+                    <ul class="section-button">
+                        <li class="section-item">
+                            всеми этими словами:
+                        </li>
+                        <li class="section-item">
+                            это точное слово или фраза:
+                        </li>
+                        <li class="section-item">
+                            любым из этих слов:
+                        </li>
+                        <li class="section-item">
+                            ни одним из этих слов:
+                        </li>
+                    </ul>
+                    <ul class="section-button">
+                        <li class="section-item">
+                            <input type="text" name="as_q">
+                        </li>
+                        <li class="section-item">
+                            <input type="text" name="as_epq">
+                        </li>
+                        <li class="section-item">
+                            <input type="text" name="as_oq">
+                        </li>
+                        <li class="section-item">
+                            <input type="text" name="as_eq">
+                        </li>
+                    </ul>
+                </div>
                 <div class="button-container">
                     <input class="button-advanced-search" type="submit" value="Search">
                 </div>
